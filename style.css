@@ -16,11 +16,18 @@
 
 body {
     font-family: var(--font2);
-    background-color: rgba(0, 0, 0, 0.245);
+}
+
+.tel-header {
+    font-size: 18px;
 }
 
 header {
-    background-color: rgba(0, 0, 0, 0.909);
+    background-image: url(imagens/imagem02.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-bottom: 5px solid black;
     height: 300px;
     text-align: center;
     color: white;
@@ -32,13 +39,9 @@ header div  h1 {
     font-size: 8vw;
 }
 
-header > p {
-    padding-bottom: 50px;
-}
-
 main h4 {
     height: 40px;
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
     margin-top: 20px;
 }
@@ -49,28 +52,33 @@ main h4 {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
+    margin-top: 12px;
+    
 }
 
 .cards {
+    margin-top: 10px;
     background-size: cover;
     background-position: 50% 50%;
-    border-radius: 10px;
+    border-radius: 5px;
+    border: 3px solid black;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     color: white;
-    font-size: 25px;
+    font-size: 28px;
     padding: 0 0 20px 10px;
 }
 
 .banner-1 {
-    background-image: url(./imagens/suculentas1.jpeg);
+    background-image: url(imagens/imagem01.jpeg);
     width: 350px;
-    height: 180px;
+    height: 250px;
 }
 
 .banner-2 {
-    background-image: url(./imagens/suculentas2.jpeg);
+    background-image: url(imagens/imagem04.jpg);
+    background-position: right;
     width: 350px;
-    height: 180px;
+    height: 250px;
 }
