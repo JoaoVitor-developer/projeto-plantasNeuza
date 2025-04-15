@@ -98,6 +98,13 @@ main h4 {
     justify-content: center;
 }
 
+.video > p {
+    font-size: 20px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
 div.video {
     background-color: black;
     width: 600px;
@@ -114,5 +121,6 @@ div.video > iframe {
     left: 5%;
     width: 90%;
     height: 90%;
+    margin-top: 17px;
 }
 
