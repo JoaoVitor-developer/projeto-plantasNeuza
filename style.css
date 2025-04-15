@@ -41,3 +41,13 @@ main h4 {
     text-align: center;
     margin-top: 20px;
 }
+
+.banner-1 {
+    background-image: url(./imagens/suculentas1.jpeg);
+    width: 200px;
+    height: 200px;
+}
+
+.banner-2 {
+    background-image: url(./imagens/suculentas2.jpeg);
+}
