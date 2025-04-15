@@ -16,6 +16,7 @@
 
 body {
     font-family: var(--font2);
+    background-color: rgba(0, 0, 0, 0.245);
 }
 
 header {
@@ -42,12 +43,34 @@ main h4 {
     margin-top: 20px;
 }
 
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.cards {
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: white;
+    font-size: 25px;
+    padding: 0 0 20px 10px;
+}
+
 .banner-1 {
     background-image: url(./imagens/suculentas1.jpeg);
-    width: 200px;
-    height: 200px;
+    width: 350px;
+    height: 180px;
 }
 
 .banner-2 {
     background-image: url(./imagens/suculentas2.jpeg);
+    width: 350px;
+    height: 180px;
 }
