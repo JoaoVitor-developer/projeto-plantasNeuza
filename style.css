@@ -17,8 +17,16 @@
 body {
     font-family: var(--font2);
 }
+.headertel {
+    display: flex;
+    justify-content: space-evenly;
+}
 
 .tel-header {
+    font-size: 18px;
+}
+
+.end-header {
     font-size: 18px;
 }
 
@@ -124,3 +132,25 @@ div.video > iframe {
     margin-top: 17px;
 }
 
+footer {
+    background-color: black;
+    height: 250px;
+    margin-top: 20px;
+    font-variant: small-caps;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+footer span {
+    padding-top: 50px;
+    font-size: 5vw;
+}
+
+footer h5 {
+    font-size: 25px;
+}
+footer p {
+    font-size: 20px;
+}
