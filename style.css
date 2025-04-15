@@ -27,7 +27,8 @@ header {
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
-    border-bottom: 5px solid black;
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
     height: 300px;
     text-align: center;
     color: white;
@@ -57,16 +58,11 @@ main h4 {
 }
 
 .cards {
-    margin-top: 10px;
+    margin-top: 15px;
     background-size: cover;
     background-position: 50% 50%;
     border-radius: 5px;
     border: 3px solid black;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    color: white;
-    font-size: 28px;
     padding: 0 0 20px 10px;
 }
 
@@ -82,3 +78,41 @@ main h4 {
     width: 350px;
     height: 250px;
 }
+
+.banner-3 {
+    background-image: url(imagens/imagem05.jpg);
+    width: 350px;
+    height: 250px;
+}
+
+.banner-4 {
+    background-image: url(imagens/imagem03.jpg);
+    width: 350px;
+    height: 250px;
+    background-position: right center;
+}
+
+.video-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+div.video {
+    background-color: black;
+    width: 600px;
+    padding: 20px;
+    padding-bottom: 30%;
+    position: relative;
+    margin-top: 22px;
+    border-radius: 10px;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
