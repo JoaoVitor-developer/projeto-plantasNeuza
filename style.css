@@ -105,6 +105,34 @@ footer {
     background-color: #2c6c32;
 }
 
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    width: 60px;
+    height: 60px;
+    background-color: #25d366;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+  }
+  
+  
+  .whatsapp-button img {
+    width: 32px;
+    height: 32px;
+  }
+  
+  
+  .whatsapp-button:hover {
+    transform: scale(1.1);
+  }
+  
+
 @media (max-width: 768px) {
     #home {
         margin-top: 8px;
