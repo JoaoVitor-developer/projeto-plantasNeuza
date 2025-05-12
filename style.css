@@ -128,10 +128,11 @@ footer {
     height: 32px;
   }
   
-  
+  /*
   .whatsapp-button:hover {
     transform: scale(1.1);
   }
+  */
   
   .google-review-button {
     position: fixed;
@@ -157,45 +158,6 @@ footer {
     height: 60px;
     border-radius: 45%;
   }
-
-  .whatsapp-button,
-.google-review-button,
-.instagram-button {
-  position: fixed;
-  right: 20px;
-  z-index: 1000;
-  background: white;
-  border-radius: 50%;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  padding: 8px;
-  transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.whatsapp-button {
-  bottom: 75px;
-}
-
-.google-review-button {
-  bottom: 160px;
-}
-
-.instagram-button {
-  bottom: 230px;
-}
-
-.whatsapp-button:hover,
-.google-review-button:hover,
-.instagram-button:hover {
-  transform: scale(1.1);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
-}
-
-.whatsapp-button img,
-.google-review-button img,
-.instagram-button img {
-  width: 44px;
-  height: 44px;
-}
 
 @media (max-width: 768px) {
     #home {
